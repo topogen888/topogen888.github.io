@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TopoGen: Topology-Guided Skill Recomposition for Robotic Demonstration Generation</title>
+  <meta name="description" content="TopoGen: Topology-Guided Skill Recomposition for Robotic Demonstration Generation.">
+  <meta property="og:title" content="TopoGen: Topology-Guided Skill Recomposition for Robotic Demonstration Generation">
+  <meta property="og:description" content="Topology-guided skill recomposition for generating diverse robotic demonstrations from a single human demonstration.">
+  <meta property="og:url" content="https://topogen888.github.io/">
+  <meta property="og:image" content="https://topogen888.github.io/public/topogen-social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TopoGen: Topology-Guided Skill Recomposition for Robotic Demonstration Generation">
+  <meta name="twitter:description" content="Topology-guided skill recomposition for generating diverse robotic demonstrations.">
+  <meta name="twitter:image" content="https://topogen888.github.io/public/topogen-social.png">
+  <link rel="canonical" href="https://topogen888.github.io/">
+  <link rel="icon" href="public/favicon.svg">
+  <link rel="stylesheet" href="app/globals.css?v=20261019-topogen">
+</head>
+<body>
+  <main>
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="TopoGen home">TopoGen</a>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#abstract">Abstract</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#comparison">Comparison</a>
+      </div>
+    </nav>
+
+    <header id="top" class="hero page-shell">
+      <div class="eyebrow">Bimanual Robot Learning</div>
+      <h1><strong>TopoGen</strong>: Topology-Guided Skill Recomposition for Robotic<br class="title-break"> Demonstration <strong>Generation</strong></h1>
+      <p class="authors">Anonymous Authors</p>
+      <p class="affiliation">Project page · Under review</p>
+      <div class="hero-actions" aria-label="Project resources">
+        <span class="resource is-disabled">Paper <small>soon</small></span>
+        <span class="resource is-disabled">Code <small>soon</small></span>
+        <a class="resource" href="#results">Videos</a>
+      </div>
+      <a class="scroll-cue" href="#overview" aria-label="Scroll to overview">↓</a>
+    </header>
+
+    <section id="overview" class="section section-overview">
+      <div class="page-shell">
+        <div class="section-heading"><span>01</span><h2>Overview</h2></div>
+        <picture class="diagram-motion">
+          <source media="(prefers-reduced-motion: reduce)" srcset="public/images/overview.png">
+          <img class="feature-figure" src="public/images/overview-animated.gif" alt="TopoGen overview, revealing the workflow from human demonstration through data generation and policy training">
+        </picture>
+        <p class="lead">TopoGen synthesizes diverse bimanual robotic demonstrations from only one human demonstration. A topology graph captures sequential and collaborative skill relations, then adapts arm assignment, execution order, and collision avoidance to new asset layouts.</p>
+        <div class="subsection-title"><span>Challenge</span><h3>Why bimanual data generation is difficult</h3></div>
+        <div class="challenge-grid">
+          <article><span class="challenge-index">01</span><h3>Non-chain Temporal Modeling</h3><div class="short-rule"></div><p>Interleaved sequential and collaborative skills require explicit temporal structure instead of a simple chain-like order.</p></article>
+          <article><span class="challenge-index">02</span><h3>Multi-solution Data Generation</h3><div class="short-rule"></div><p>New asset layouts demand adaptive arm assignments, execution orders, and collision-avoidance strategies.</p></article>
+          <article><span class="challenge-index">03</span><h3>Long-horizon Policy Learning</h3><div class="short-rule"></div><p>Multiple valid solutions and long skill sequences make the mapping from visual observations to robot actions ambiguous.</p></article>
+        </div>
+        <div class="highlights">
+          <article><strong>Robot-free</strong><span>No physical robot collection</span></article>
+          <article><strong>Simulator-free</strong><span>No handcrafted simulation setup</span></article>
+          <article><strong>Teleoperation-free</strong><span>One human demonstration is enough</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="abstract" class="section page-shell">
+      <div class="section-heading"><span>02</span><h2>Abstract</h2></div>
+      <p class="body-copy">Imitation learning (IL) has become a promising paradigm for enabling robots to autonomously accomplish manipulation tasks. However, IL typically requires large-scale robotic data for policy training, making efficient data generation critical for improving policy performance. While existing data generation methods have achieved notable progress in robotic manipulation, extending them to bimanual systems remains challenging. Specifically, bimanual manipulation poses three key challenges, including non-chain temporal modeling, multi-solution strategy adaptation, and long-horizon policy learning, making it difficult to generate high-quality and scalable bimanual data under large-scale asset rearrangements. In this paper, we propose TopoGen, a framework for generating bimanual robotic data from a single human demonstration via topology graph modeling. First, TopoGen extracts contact-rich skills and constructs a topology graph to explicitly represent their sequential and collaborative logic. Second, guided by the topology graph, TopoGen leverages editable Gaussian scenes, together with the Cross-Arm Skill Transposition Module and the Proactive Spatiotemporal Avoidance Engine, to dynamically adapt skill execution strategies under diverse asset arrangements, thereby generating high-quality multi-solution bimanual data. Third, to better learn from the generated multi-solution data, TopoGen proposes a Visual-Skill-Action policy that incorporates Skill-Code to modulate visual features and improve bimanual policy learning. Extensive experiments demonstrate that TopoGen enables efficient data generation, high-quality policy learning, and robust cross-domain deployment in both simulation and real-world environments.</p>
+    </section>
+
+    <section id="method" class="section section-tinted">
+      <div class="page-shell">
+        <div class="section-heading"><span>03</span><h2>Method</h2></div>
+        <p class="section-intro">From temporal structure to multi-solution data and skill-guided policy learning.</p>
+        <picture class="diagram-motion">
+          <source media="(prefers-reduced-motion: reduce)" srcset="public/images/method-pipeline.png">
+          <img class="method-figure" src="public/images/method-pipeline-animated.gif" alt="TopoGen method pipeline, revealing temporal modeling, data generation, and policy training in sequence">
+        </picture>
+        <div class="contribution-grid">
+          <article><span>A</span><div><h3>Topology Graph Modeling</h3><p>Extracts contact-rich skills and encodes their sequential and collaborative relations as structured temporal guidance.</p></div></article>
+          <article><span>B</span><div><h3>Multi-Solution Generation</h3><p>Combines cross-arm skill transposition with proactive spatiotemporal avoidance to adapt demonstrations to new layouts.</p></div></article>
+          <article><span>C</span><div><h3>Skill-Guided Policy Training</h3><p>Injects predicted Skill-Code into visual features before an ACT-based action head for more decisive long-horizon learning.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section page-shell">
+      <div class="section-heading"><span>04</span><h2>Results</h2></div>
+      <p class="section-intro">Temporal modeling, data generation, augmentation, and cross-domain inference results.</p>
+      <div id="results-gallery" class="results-gallery"><p>Loading research demonstrations…</p><noscript>Please enable JavaScript to browse the demonstrations.</noscript></div>
+    </section>
+
+    <section id="comparison" class="section section-tinted">
+      <div class="page-shell">
+        <div class="section-heading"><span>05</span><h2>Comparison</h2></div>
+        <p class="section-intro">TopoGen unifies scalable data generation, appearance augmentation, and multi-solution policy learning.</p>
+        <img class="comparison-table" src="public/images/comparison-table.png" alt="Comparison of robotic data generation approaches">
+        <div class="result-grid">
+          <article class="result-card tone-1"><span>01</span><h3>Robot scalability</h3><p>Integrated in one data-generation framework.</p></article>
+          <article class="result-card tone-2"><span>02</span><h3>Solution scalability</h3><p>Integrated in one data-generation framework.</p></article>
+          <article class="result-card tone-3"><span>03</span><h3>Pose augmentation</h3><p>Integrated in one data-generation framework.</p></article>
+          <article class="result-card tone-4"><span>04</span><h3>Appearance augmentation</h3><p>Integrated in one data-generation framework.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Website structure inspired by the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page.</p>
+      <p>© 2026 TopoGen · Anonymous project page</p>
+    </footer>
+  </main>
+  <script type="module" src="./public/static-gallery.js?v=20260904-viewer"></script>
+</body>
+</html>

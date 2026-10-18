@@ -1,0 +1,2598 @@
+{
+  "tasks": [
+    "block",
+    "bread",
+    "fruit",
+    "hanoi",
+    "pour",
+    "scan",
+    "serve",
+    "sweep"
+  ],
+  "assets": [
+    {
+      "path": "temporal/3dgs/block.viser",
+      "bytes": 49538349,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 7.15,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 14,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 11,
+          "SceneNodeUpdateMessage": 388
+        },
+        "cameraPosition": [
+          0.2025,
+          -0.3316,
+          0.1319
+        ],
+        "cameraLookAt": [
+          0.0499,
+          0.0117,
+          1.0854
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/bread.viser",
+      "bytes": 13560853,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 4.15,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 8,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 5,
+          "SceneNodeUpdateMessage": 190
+        },
+        "cameraPosition": [
+          0.1805,
+          -0.3438,
+          0.0103
+        ],
+        "cameraLookAt": [
+          0.0094,
+          0.0412,
+          1.0798
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/fruit.viser",
+      "bytes": 25029811,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 8.75,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 10,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 7,
+          "SceneNodeUpdateMessage": 397
+        },
+        "cameraPosition": [
+          0.1892,
+          -0.3381,
+          0.0626
+        ],
+        "cameraLookAt": [
+          0.0255,
+          0.0302,
+          1.0858
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/hanoi.viser",
+      "bytes": 27562560,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 7.15,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 10,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 7,
+          "SceneNodeUpdateMessage": 340
+        },
+        "cameraPosition": [
+          0.1889,
+          -0.338,
+          0.0623
+        ],
+        "cameraLookAt": [
+          0.0251,
+          0.0305,
+          1.0859
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/pour.viser",
+      "bytes": 83669719,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 8.05,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 8,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 5,
+          "SceneNodeUpdateMessage": 520
+        },
+        "cameraPosition": [
+          0.1806,
+          -0.3438,
+          0.0104
+        ],
+        "cameraLookAt": [
+          0.0095,
+          0.0411,
+          1.0798
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/scan.viser",
+      "bytes": 49060535,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 7.0,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 8,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 5,
+          "SceneNodeUpdateMessage": 436
+        },
+        "cameraPosition": [
+          0.181,
+          -0.3438,
+          0.0108
+        ],
+        "cameraLookAt": [
+          0.01,
+          0.041,
+          1.0798
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/serve.viser",
+      "bytes": 32713880,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 8.65,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 9,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 6,
+          "SceneNodeUpdateMessage": 432
+        },
+        "cameraPosition": [
+          0.1855,
+          -0.3415,
+          0.0368
+        ],
+        "cameraLookAt": [
+          0.018,
+          0.0354,
+          1.0836
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/3dgs/sweep.viser",
+      "bytes": 37262419,
+      "scene": {
+        "version": "1.0.24",
+        "duration": 8.25,
+        "representation": "point-cloud",
+        "messageTypes": {
+          "FrameMessage": 3,
+          "SetSceneNodeVisibilityMessage": 8,
+          "BackgroundImageMessage": 1,
+          "SetOrientationMessage": 1,
+          "PointCloudMessage": 5,
+          "SceneNodeUpdateMessage": 467
+        },
+        "cameraPosition": [
+          0.1821,
+          -0.344,
+          0.0126
+        ],
+        "cameraLookAt": [
+          0.0113,
+          0.0401,
+          1.0798
+        ],
+        "cameraUp": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "path": "temporal/human/block.mp4",
+      "bytes": 2770147,
+      "poster": "temporal/human/block.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 6.53,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/bread.mp4",
+      "bytes": 1144979,
+      "poster": "temporal/human/bread.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 3.1,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/fruit.mp4",
+      "bytes": 3549927,
+      "poster": "temporal/human/fruit.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 11.0,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/hanoi.mp4",
+      "bytes": 3738963,
+      "poster": "temporal/human/hanoi.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.5,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/pour.mp4",
+      "bytes": 3060410,
+      "poster": "temporal/human/pour.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 9.47,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/scan.mp4",
+      "bytes": 2589247,
+      "poster": "temporal/human/scan.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 7.53,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/serve.mp4",
+      "bytes": 4500865,
+      "poster": "temporal/human/serve.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 13.2,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/human/sweep.mp4",
+      "bytes": 1628515,
+      "poster": "temporal/human/sweep.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 4.47,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/block.mp4",
+      "bytes": 61287,
+      "poster": "temporal/graph/block.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 6.53,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/bread.mp4",
+      "bytes": 34210,
+      "poster": "temporal/graph/bread.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 3.1,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/fruit.mp4",
+      "bytes": 84636,
+      "poster": "temporal/graph/fruit.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 11.0,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/hanoi.mp4",
+      "bytes": 81233,
+      "poster": "temporal/graph/hanoi.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.5,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/pour.mp4",
+      "bytes": 82696,
+      "poster": "temporal/graph/pour.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 9.47,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/scan.mp4",
+      "bytes": 57339,
+      "poster": "temporal/graph/scan.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 7.53,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/serve.mp4",
+      "bytes": 103277,
+      "poster": "temporal/graph/serve.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 13.2,
+      "codec": "h264"
+    },
+    {
+      "path": "temporal/graph/sweep.mp4",
+      "bytes": 52751,
+      "poster": "temporal/graph/sweep.jpg",
+      "width": 1280,
+      "height": 720,
+      "duration": 4.47,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/simulation/1.mp4",
+      "bytes": 547429,
+      "poster": "policy/block/simulation/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/simulation/21.mp4",
+      "bytes": 657436,
+      "poster": "policy/block/simulation/21.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/simulation/3.mp4",
+      "bytes": 605576,
+      "poster": "policy/block/simulation/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/simulation/7.mp4",
+      "bytes": 545439,
+      "poster": "policy/block/simulation/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/real/14.mp4",
+      "bytes": 208671,
+      "poster": "policy/block/real/14.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 17.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/real/23.mp4",
+      "bytes": 178111,
+      "poster": "policy/block/real/23.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 14.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/real/30.mp4",
+      "bytes": 175963,
+      "poster": "policy/block/real/30.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 14.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/block/real/72.mp4",
+      "bytes": 201135,
+      "poster": "policy/block/real/72.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 17.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/simulation/3.mp4",
+      "bytes": 293033,
+      "poster": "policy/bread/simulation/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 3.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/simulation/4.mp4",
+      "bytes": 300627,
+      "poster": "policy/bread/simulation/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/simulation/7.mp4",
+      "bytes": 299310,
+      "poster": "policy/bread/simulation/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/simulation/73.mp4",
+      "bytes": 299854,
+      "poster": "policy/bread/simulation/73.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 3.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/real/2.mp4",
+      "bytes": 103650,
+      "poster": "policy/bread/real/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/real/23.mp4",
+      "bytes": 101882,
+      "poster": "policy/bread/real/23.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/real/3.mp4",
+      "bytes": 110610,
+      "poster": "policy/bread/real/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/bread/real/32.mp4",
+      "bytes": 114443,
+      "poster": "policy/bread/real/32.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/simulation/11.mp4",
+      "bytes": 530241,
+      "poster": "policy/fruit/simulation/11.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/simulation/12.mp4",
+      "bytes": 558803,
+      "poster": "policy/fruit/simulation/12.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/simulation/4.mp4",
+      "bytes": 522667,
+      "poster": "policy/fruit/simulation/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/simulation/43.mp4",
+      "bytes": 415176,
+      "poster": "policy/fruit/simulation/43.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 6.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/real/0.mp4",
+      "bytes": 16874710,
+      "poster": "policy/fruit/real/0.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 18.0,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/real/1.mp4",
+      "bytes": 16539749,
+      "poster": "policy/fruit/real/1.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 17.93,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/real/2.mp4",
+      "bytes": 16812659,
+      "poster": "policy/fruit/real/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 18.0,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/fruit/real/3.mp4",
+      "bytes": 16572468,
+      "poster": "policy/fruit/real/3.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 18.0,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/simulation/10.mp4",
+      "bytes": 525522,
+      "poster": "policy/hanoi/simulation/10.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/simulation/8.mp4",
+      "bytes": 416122,
+      "poster": "policy/hanoi/simulation/8.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 5.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/simulation/9.mp4",
+      "bytes": 432336,
+      "poster": "policy/hanoi/simulation/9.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/simulation/93.mp4",
+      "bytes": 432903,
+      "poster": "policy/hanoi/simulation/93.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/real/1.mp4",
+      "bytes": 152858,
+      "poster": "policy/hanoi/real/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 17.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/real/14.mp4",
+      "bytes": 150244,
+      "poster": "policy/hanoi/real/14.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 17.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/real/2.mp4",
+      "bytes": 142232,
+      "poster": "policy/hanoi/real/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 17.2,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/hanoi/real/32.mp4",
+      "bytes": 17833714,
+      "poster": "policy/hanoi/real/32.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 17.63,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/simulation/2.mp4",
+      "bytes": 486804,
+      "poster": "policy/pour/simulation/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/simulation/3.mp4",
+      "bytes": 525655,
+      "poster": "policy/pour/simulation/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/simulation/6.mp4",
+      "bytes": 530634,
+      "poster": "policy/pour/simulation/6.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/simulation/8.mp4",
+      "bytes": 543484,
+      "poster": "policy/pour/simulation/8.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/real/1.mp4",
+      "bytes": 14648092,
+      "poster": "policy/pour/real/1.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.57,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/real/2.mp4",
+      "bytes": 15429856,
+      "poster": "policy/pour/real/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.53,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/real/3.mp4",
+      "bytes": 14772829,
+      "poster": "policy/pour/real/3.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.53,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/pour/real/4.mp4",
+      "bytes": 14516738,
+      "poster": "policy/pour/real/4.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.53,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/simulation/10.mp4",
+      "bytes": 612616,
+      "poster": "policy/scan/simulation/10.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/simulation/2.mp4",
+      "bytes": 481888,
+      "poster": "policy/scan/simulation/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 6.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/simulation/20.mp4",
+      "bytes": 533131,
+      "poster": "policy/scan/simulation/20.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 6.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/simulation/4.mp4",
+      "bytes": 589923,
+      "poster": "policy/scan/simulation/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/real/1.mp4",
+      "bytes": 12672213,
+      "poster": "policy/scan/real/1.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 14.47,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/real/2.mp4",
+      "bytes": 13411319,
+      "poster": "policy/scan/real/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 14.47,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/real/3.mp4",
+      "bytes": 12661109,
+      "poster": "policy/scan/real/3.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 14.43,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/scan/real/4.mp4",
+      "bytes": 12527004,
+      "poster": "policy/scan/real/4.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 14.37,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/simulation/11.mp4",
+      "bytes": 10781417,
+      "poster": "policy/serve/simulation/11.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 11.07,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/simulation/12.mp4",
+      "bytes": 8168750,
+      "poster": "policy/serve/simulation/12.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 9.13,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/simulation/55.mp4",
+      "bytes": 9014186,
+      "poster": "policy/serve/simulation/55.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 9.6,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/simulation/79.mp4",
+      "bytes": 763468,
+      "poster": "policy/serve/simulation/79.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/real/1.mp4",
+      "bytes": 16464325,
+      "poster": "policy/serve/real/1.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 17.77,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/real/2.mp4",
+      "bytes": 18588291,
+      "poster": "policy/serve/real/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 17.67,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/real/3.mp4",
+      "bytes": 16479264,
+      "poster": "policy/serve/real/3.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 17.73,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/serve/real/4.mp4",
+      "bytes": 16403179,
+      "poster": "policy/serve/real/4.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 17.63,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/simulation/2.mp4",
+      "bytes": 623737,
+      "poster": "policy/sweep/simulation/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/simulation/3.mp4",
+      "bytes": 537152,
+      "poster": "policy/sweep/simulation/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/simulation/32.mp4",
+      "bytes": 576940,
+      "poster": "policy/sweep/simulation/32.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/simulation/6.mp4",
+      "bytes": 544631,
+      "poster": "policy/sweep/simulation/6.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.55,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/real/1.mp4",
+      "bytes": 14898089,
+      "poster": "policy/sweep/real/1.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.87,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/real/2.mp4",
+      "bytes": 14538791,
+      "poster": "policy/sweep/real/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.83,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/real/3.mp4",
+      "bytes": 14632931,
+      "poster": "policy/sweep/real/3.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.83,
+      "codec": "h264"
+    },
+    {
+      "path": "policy/sweep/real/4.mp4",
+      "bytes": 14975021,
+      "poster": "policy/sweep/real/4.jpg",
+      "width": 1080,
+      "height": 1080,
+      "duration": 16.93,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/high/0.mp4",
+      "bytes": 129145,
+      "poster": "generation/block/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/high/0_avoid.png",
+      "bytes": 78149
+    },
+    {
+      "path": "generation/block/high/1.mp4",
+      "bytes": 124600,
+      "poster": "generation/block/high/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/high/1_avoid.png",
+      "bytes": 78149
+    },
+    {
+      "path": "generation/block/high/2.mp4",
+      "bytes": 115104,
+      "poster": "generation/block/high/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/high/2_avoid.png",
+      "bytes": 73403
+    },
+    {
+      "path": "generation/block/high/5.mp4",
+      "bytes": 112043,
+      "poster": "generation/block/high/5.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/high/5_avoid.png",
+      "bytes": 73403
+    },
+    {
+      "path": "generation/block/low/0.mp4",
+      "bytes": 112957,
+      "poster": "generation/block/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/low/0_avoid.png",
+      "bytes": 73403
+    },
+    {
+      "path": "generation/block/low/1.mp4",
+      "bytes": 116056,
+      "poster": "generation/block/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/low/1_avoid.png",
+      "bytes": 73403
+    },
+    {
+      "path": "generation/block/low/2.mp4",
+      "bytes": 112878,
+      "poster": "generation/block/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/low/2_avoid.png",
+      "bytes": 73403
+    },
+    {
+      "path": "generation/block/low/3.mp4",
+      "bytes": 115158,
+      "poster": "generation/block/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/low/3_avoid.png",
+      "bytes": 73403
+    },
+    {
+      "path": "generation/block/total/1.mp4",
+      "bytes": 134047,
+      "poster": "generation/block/total/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/total/1_avoid.png",
+      "bytes": 77383
+    },
+    {
+      "path": "generation/block/total/2.mp4",
+      "bytes": 135771,
+      "poster": "generation/block/total/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 11.2,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/total/2_avoid.png",
+      "bytes": 75892
+    },
+    {
+      "path": "generation/block/total/8.mp4",
+      "bytes": 120677,
+      "poster": "generation/block/total/8.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/total/8_avoid.png",
+      "bytes": 77918
+    },
+    {
+      "path": "generation/block/total/9.mp4",
+      "bytes": 127156,
+      "poster": "generation/block/total/9.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/block/total/9_avoid.png",
+      "bytes": 72860
+    },
+    {
+      "path": "generation/bread/high/0.mp4",
+      "bytes": 65067,
+      "poster": "generation/bread/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/high/0_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/high/1.mp4",
+      "bytes": 63590,
+      "poster": "generation/bread/high/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/high/1_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/high/2.mp4",
+      "bytes": 61804,
+      "poster": "generation/bread/high/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/high/2_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/high/3.mp4",
+      "bytes": 61768,
+      "poster": "generation/bread/high/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/high/3_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/low/0.mp4",
+      "bytes": 62651,
+      "poster": "generation/bread/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/low/0_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/low/1.mp4",
+      "bytes": 61871,
+      "poster": "generation/bread/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/low/1_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/low/2.mp4",
+      "bytes": 61247,
+      "poster": "generation/bread/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/low/2_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/low/3.mp4",
+      "bytes": 61152,
+      "poster": "generation/bread/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/low/3_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/total/0.mp4",
+      "bytes": 61735,
+      "poster": "generation/bread/total/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/total/0_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/total/2.mp4",
+      "bytes": 61755,
+      "poster": "generation/bread/total/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/total/2_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/total/4.mp4",
+      "bytes": 64061,
+      "poster": "generation/bread/total/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/total/4_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/bread/total/7.mp4",
+      "bytes": 63529,
+      "poster": "generation/bread/total/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/bread/total/7_avoid.png",
+      "bytes": 68202
+    },
+    {
+      "path": "generation/fruit/high/0.mp4",
+      "bytes": 100882,
+      "poster": "generation/fruit/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/high/0_avoid.png",
+      "bytes": 68379
+    },
+    {
+      "path": "generation/fruit/high/1.mp4",
+      "bytes": 98867,
+      "poster": "generation/fruit/high/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/high/10.mp4",
+      "bytes": 94877,
+      "poster": "generation/fruit/high/10.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/high/10_avoid.png",
+      "bytes": 68322
+    },
+    {
+      "path": "generation/fruit/high/1_avoid.png",
+      "bytes": 68379
+    },
+    {
+      "path": "generation/fruit/high/5.mp4",
+      "bytes": 102399,
+      "poster": "generation/fruit/high/5.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/high/5_avoid.png",
+      "bytes": 68322
+    },
+    {
+      "path": "generation/fruit/low/0.mp4",
+      "bytes": 101130,
+      "poster": "generation/fruit/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/low/0_avoid.png",
+      "bytes": 68379
+    },
+    {
+      "path": "generation/fruit/low/1.mp4",
+      "bytes": 98631,
+      "poster": "generation/fruit/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/low/1_avoid.png",
+      "bytes": 68379
+    },
+    {
+      "path": "generation/fruit/low/2.mp4",
+      "bytes": 98774,
+      "poster": "generation/fruit/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/low/2_avoid.png",
+      "bytes": 68379
+    },
+    {
+      "path": "generation/fruit/low/3.mp4",
+      "bytes": 99949,
+      "poster": "generation/fruit/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/low/3_avoid.png",
+      "bytes": 68379
+    },
+    {
+      "path": "generation/fruit/total/0.mp4",
+      "bytes": 129332,
+      "poster": "generation/fruit/total/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.85,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/total/0_avoid.png",
+      "bytes": 96011
+    },
+    {
+      "path": "generation/fruit/total/1.mp4",
+      "bytes": 104747,
+      "poster": "generation/fruit/total/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/total/1_avoid.png",
+      "bytes": 68063
+    },
+    {
+      "path": "generation/fruit/total/3.mp4",
+      "bytes": 133955,
+      "poster": "generation/fruit/total/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 14.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/total/3_avoid.png",
+      "bytes": 84925
+    },
+    {
+      "path": "generation/fruit/total/7.mp4",
+      "bytes": 115171,
+      "poster": "generation/fruit/total/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 12.55,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/fruit/total/7_avoid.png",
+      "bytes": 64182
+    },
+    {
+      "path": "generation/hanoi/high/0.mp4",
+      "bytes": 87346,
+      "poster": "generation/hanoi/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/high/0_avoid.png",
+      "bytes": 69401
+    },
+    {
+      "path": "generation/hanoi/high/2.mp4",
+      "bytes": 84143,
+      "poster": "generation/hanoi/high/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/high/2_avoid.png",
+      "bytes": 66759
+    },
+    {
+      "path": "generation/hanoi/high/4.mp4",
+      "bytes": 86511,
+      "poster": "generation/hanoi/high/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/high/4_avoid.png",
+      "bytes": 71059
+    },
+    {
+      "path": "generation/hanoi/high/9.mp4",
+      "bytes": 84196,
+      "poster": "generation/hanoi/high/9.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/high/9_avoid.png",
+      "bytes": 67114
+    },
+    {
+      "path": "generation/hanoi/low/0.mp4",
+      "bytes": 82630,
+      "poster": "generation/hanoi/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/low/0_avoid.png",
+      "bytes": 67114
+    },
+    {
+      "path": "generation/hanoi/low/1.mp4",
+      "bytes": 82566,
+      "poster": "generation/hanoi/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/low/1_avoid.png",
+      "bytes": 67114
+    },
+    {
+      "path": "generation/hanoi/low/2.mp4",
+      "bytes": 83388,
+      "poster": "generation/hanoi/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/low/2_avoid.png",
+      "bytes": 67114
+    },
+    {
+      "path": "generation/hanoi/low/3.mp4",
+      "bytes": 82143,
+      "poster": "generation/hanoi/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/low/3_avoid.png",
+      "bytes": 67114
+    },
+    {
+      "path": "generation/hanoi/total/1.mp4",
+      "bytes": 104427,
+      "poster": "generation/hanoi/total/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/total/1_avoid.png",
+      "bytes": 88748
+    },
+    {
+      "path": "generation/hanoi/total/5.mp4",
+      "bytes": 96545,
+      "poster": "generation/hanoi/total/5.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/total/5_avoid.png",
+      "bytes": 96604
+    },
+    {
+      "path": "generation/hanoi/total/6.mp4",
+      "bytes": 103477,
+      "poster": "generation/hanoi/total/6.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.75,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/total/6_avoid.png",
+      "bytes": 84566
+    },
+    {
+      "path": "generation/hanoi/total/9.mp4",
+      "bytes": 103708,
+      "poster": "generation/hanoi/total/9.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/hanoi/total/9_avoid.png",
+      "bytes": 75378
+    },
+    {
+      "path": "generation/pour/high/0.mp4",
+      "bytes": 95212,
+      "poster": "generation/pour/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/high/0_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/pour/high/3.mp4",
+      "bytes": 94179,
+      "poster": "generation/pour/high/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/high/3_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/pour/high/4.mp4",
+      "bytes": 92631,
+      "poster": "generation/pour/high/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/high/4_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/pour/high/6.mp4",
+      "bytes": 92545,
+      "poster": "generation/pour/high/6.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/high/6_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/pour/low/1.mp4",
+      "bytes": 92432,
+      "poster": "generation/pour/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/low/1_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/pour/low/2.mp4",
+      "bytes": 91344,
+      "poster": "generation/pour/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/low/2_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/pour/low/7.mp4",
+      "bytes": 91824,
+      "poster": "generation/pour/low/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/low/7_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/pour/low/8.mp4",
+      "bytes": 90438,
+      "poster": "generation/pour/low/8.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/low/8_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/pour/total/1.mp4",
+      "bytes": 95960,
+      "poster": "generation/pour/total/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/total/1_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/pour/total/3.mp4",
+      "bytes": 102694,
+      "poster": "generation/pour/total/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.55,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/total/3_avoid.png",
+      "bytes": 83379
+    },
+    {
+      "path": "generation/pour/total/4.mp4",
+      "bytes": 113000,
+      "poster": "generation/pour/total/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.55,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/total/4_avoid.png",
+      "bytes": 83379
+    },
+    {
+      "path": "generation/pour/total/9.mp4",
+      "bytes": 103152,
+      "poster": "generation/pour/total/9.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 9.55,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/pour/total/9_avoid.png",
+      "bytes": 83379
+    },
+    {
+      "path": "generation/scan/high/0.mp4",
+      "bytes": 91781,
+      "poster": "generation/scan/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/high/0_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/scan/high/1.mp4",
+      "bytes": 90289,
+      "poster": "generation/scan/high/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/high/1_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/scan/high/2.mp4",
+      "bytes": 89924,
+      "poster": "generation/scan/high/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/high/2_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/scan/high/5.mp4",
+      "bytes": 91760,
+      "poster": "generation/scan/high/5.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/high/5_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/scan/low/0.mp4",
+      "bytes": 93727,
+      "poster": "generation/scan/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/low/0_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/scan/low/1.mp4",
+      "bytes": 89872,
+      "poster": "generation/scan/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/low/1_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/scan/low/2.mp4",
+      "bytes": 94083,
+      "poster": "generation/scan/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/low/2_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/scan/low/3.mp4",
+      "bytes": 89640,
+      "poster": "generation/scan/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/low/3_avoid.png",
+      "bytes": 71698
+    },
+    {
+      "path": "generation/scan/total/1.mp4",
+      "bytes": 105016,
+      "poster": "generation/scan/total/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.5,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/total/1_avoid.png",
+      "bytes": 83226
+    },
+    {
+      "path": "generation/scan/total/2.mp4",
+      "bytes": 107054,
+      "poster": "generation/scan/total/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.5,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/total/2_avoid.png",
+      "bytes": 83226
+    },
+    {
+      "path": "generation/scan/total/5.mp4",
+      "bytes": 93195,
+      "poster": "generation/scan/total/5.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/total/5_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/scan/total/7.mp4",
+      "bytes": 95148,
+      "poster": "generation/scan/total/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/scan/total/7_avoid.png",
+      "bytes": 71721
+    },
+    {
+      "path": "generation/serve/high/0.mp4",
+      "bytes": 100971,
+      "poster": "generation/serve/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/high/0_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/serve/high/1.mp4",
+      "bytes": 100002,
+      "poster": "generation/serve/high/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/high/1_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/serve/high/3.mp4",
+      "bytes": 97365,
+      "poster": "generation/serve/high/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/high/3_avoid.png",
+      "bytes": 94107
+    },
+    {
+      "path": "generation/serve/high/4.mp4",
+      "bytes": 101403,
+      "poster": "generation/serve/high/4.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/high/4_avoid.png",
+      "bytes": 94107
+    },
+    {
+      "path": "generation/serve/low/0.mp4",
+      "bytes": 101020,
+      "poster": "generation/serve/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/low/0_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/serve/low/1.mp4",
+      "bytes": 100397,
+      "poster": "generation/serve/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/low/1_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/serve/low/2.mp4",
+      "bytes": 99594,
+      "poster": "generation/serve/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/low/2_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/serve/low/3.mp4",
+      "bytes": 96308,
+      "poster": "generation/serve/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/low/3_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/serve/total/1.mp4",
+      "bytes": 104588,
+      "poster": "generation/serve/total/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/total/1_avoid.png",
+      "bytes": 94107
+    },
+    {
+      "path": "generation/serve/total/3.mp4",
+      "bytes": 107411,
+      "poster": "generation/serve/total/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/total/3_avoid.png",
+      "bytes": 94107
+    },
+    {
+      "path": "generation/serve/total/6.mp4",
+      "bytes": 126568,
+      "poster": "generation/serve/total/6.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 12.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/total/6_avoid.png",
+      "bytes": 95775
+    },
+    {
+      "path": "generation/serve/total/7.mp4",
+      "bytes": 103860,
+      "poster": "generation/serve/total/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/serve/total/7_avoid.png",
+      "bytes": 92320
+    },
+    {
+      "path": "generation/sweep/high/0.mp4",
+      "bytes": 93268,
+      "poster": "generation/sweep/high/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/high/0_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/high/1.mp4",
+      "bytes": 98330,
+      "poster": "generation/sweep/high/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/high/1_avoid.png",
+      "bytes": 78734
+    },
+    {
+      "path": "generation/sweep/high/2.mp4",
+      "bytes": 92799,
+      "poster": "generation/sweep/high/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/high/2_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/high/3.mp4",
+      "bytes": 97267,
+      "poster": "generation/sweep/high/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/high/3_avoid.png",
+      "bytes": 78734
+    },
+    {
+      "path": "generation/sweep/low/0.mp4",
+      "bytes": 93284,
+      "poster": "generation/sweep/low/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/low/0_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/low/1.mp4",
+      "bytes": 93855,
+      "poster": "generation/sweep/low/1.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/low/1_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/low/2.mp4",
+      "bytes": 93642,
+      "poster": "generation/sweep/low/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/low/2_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/low/3.mp4",
+      "bytes": 94219,
+      "poster": "generation/sweep/low/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/low/3_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/total/0.mp4",
+      "bytes": 100555,
+      "poster": "generation/sweep/total/0.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/total/0_avoid.png",
+      "bytes": 78734
+    },
+    {
+      "path": "generation/sweep/total/2.mp4",
+      "bytes": 112038,
+      "poster": "generation/sweep/total/2.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 10.8,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/total/2_avoid.png",
+      "bytes": 89897
+    },
+    {
+      "path": "generation/sweep/total/3.mp4",
+      "bytes": 89191,
+      "poster": "generation/sweep/total/3.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/total/3_avoid.png",
+      "bytes": 78701
+    },
+    {
+      "path": "generation/sweep/total/7.mp4",
+      "bytes": 127385,
+      "poster": "generation/sweep/total/7.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 11.85,
+      "codec": "h264"
+    },
+    {
+      "path": "generation/sweep/total/7_avoid.png",
+      "bytes": 94581
+    },
+    {
+      "path": "appearance/block/back.mp4",
+      "bytes": 267979,
+      "poster": "appearance/block/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/block/cam.mp4",
+      "bytes": 179161,
+      "poster": "appearance/block/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/block/final.mp4",
+      "bytes": 569430,
+      "poster": "appearance/block/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/block/light.mp4",
+      "bytes": 350109,
+      "poster": "appearance/block/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/block/texture.mp4",
+      "bytes": 355832,
+      "poster": "appearance/block/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/bread/back.mp4",
+      "bytes": 125454,
+      "poster": "appearance/bread/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/bread/cam.mp4",
+      "bytes": 87112,
+      "poster": "appearance/bread/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/bread/final.mp4",
+      "bytes": 305433,
+      "poster": "appearance/bread/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/bread/light.mp4",
+      "bytes": 146167,
+      "poster": "appearance/bread/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/bread/texture.mp4",
+      "bytes": 168885,
+      "poster": "appearance/bread/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 4.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/fruit/back.mp4",
+      "bytes": 245835,
+      "poster": "appearance/fruit/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/fruit/cam.mp4",
+      "bytes": 172084,
+      "poster": "appearance/fruit/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/fruit/final.mp4",
+      "bytes": 629135,
+      "poster": "appearance/fruit/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/fruit/light.mp4",
+      "bytes": 299230,
+      "poster": "appearance/fruit/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/fruit/texture.mp4",
+      "bytes": 306799,
+      "poster": "appearance/fruit/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.75,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/hanoi/back.mp4",
+      "bytes": 204968,
+      "poster": "appearance/hanoi/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/hanoi/cam.mp4",
+      "bytes": 163822,
+      "poster": "appearance/hanoi/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/hanoi/final.mp4",
+      "bytes": 556119,
+      "poster": "appearance/hanoi/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/hanoi/light.mp4",
+      "bytes": 219809,
+      "poster": "appearance/hanoi/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.15,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/hanoi/texture.mp4",
+      "bytes": 339493,
+      "poster": "appearance/hanoi/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/pour/back.mp4",
+      "bytes": 228284,
+      "poster": "appearance/pour/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/pour/cam.mp4",
+      "bytes": 150678,
+      "poster": "appearance/pour/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/pour/final.mp4",
+      "bytes": 568743,
+      "poster": "appearance/pour/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/pour/light.mp4",
+      "bytes": 257615,
+      "poster": "appearance/pour/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/pour/texture.mp4",
+      "bytes": 320678,
+      "poster": "appearance/pour/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.05,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/scan/back.mp4",
+      "bytes": 191815,
+      "poster": "appearance/scan/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/scan/cam.mp4",
+      "bytes": 133449,
+      "poster": "appearance/scan/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/scan/final.mp4",
+      "bytes": 493448,
+      "poster": "appearance/scan/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/scan/light.mp4",
+      "bytes": 228200,
+      "poster": "appearance/scan/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/scan/texture.mp4",
+      "bytes": 269481,
+      "poster": "appearance/scan/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 7.0,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/serve/back.mp4",
+      "bytes": 238270,
+      "poster": "appearance/serve/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/serve/cam.mp4",
+      "bytes": 162754,
+      "poster": "appearance/serve/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/serve/final.mp4",
+      "bytes": 595255,
+      "poster": "appearance/serve/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/serve/light.mp4",
+      "bytes": 270449,
+      "poster": "appearance/serve/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/serve/texture.mp4",
+      "bytes": 313094,
+      "poster": "appearance/serve/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.65,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/sweep/back.mp4",
+      "bytes": 240662,
+      "poster": "appearance/sweep/back.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/sweep/cam.mp4",
+      "bytes": 143819,
+      "poster": "appearance/sweep/cam.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/sweep/final.mp4",
+      "bytes": 606031,
+      "poster": "appearance/sweep/final.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/sweep/light.mp4",
+      "bytes": 251142,
+      "poster": "appearance/sweep/light.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    },
+    {
+      "path": "appearance/sweep/texture.mp4",
+      "bytes": 306410,
+      "poster": "appearance/sweep/texture.jpg",
+      "width": 224,
+      "height": 224,
+      "duration": 8.25,
+      "codec": "h264"
+    }
+  ]
+}

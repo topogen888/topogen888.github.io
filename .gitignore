@@ -1,0 +1,11 @@
+# Publish the static website and its verification scripts only.
+/app/*
+!/app/globals.css
+/public/og.png
+/public/images/bigen-logo.png
+/public/images/bigen-wordmark.png
+/scripts/*.py
+/scripts/*.ps1
+/preview-*.png
+/node_modules/
+/dist/
