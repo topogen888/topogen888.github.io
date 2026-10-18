@@ -31,18 +31,17 @@ The root `index.html` is the GitHub Pages entry file. No Node.js build is requir
 
 ## Local preview
 
-Use an HTTP server for the static entry (the gallery loads a JSON manifest), or run the included development project with:
+Use an HTTP server for the static entry (the gallery loads a JSON manifest):
 
 ```bash
-npm install
-npm run dev
+python -m http.server 8000
 ```
 
 ## Refresh the imported media
 
-The source ZIP archives remain in the parent folder. `scripts/import-media.ps1` extracts them with their original Chinese filename encoding into ASCII-only paths. It never overwrites existing media files. `scripts/prepare-media.py` decodes each MP4 using OpenCV, extracts a JPEG poster, and records dimensions, duration, and codec in the manifest. Run it again after importing so the gallery has its metadata. Original videos are not re-encoded.
+The media collection was imported from the original project. Original ZIP archives and media preparation scripts are not published. Original videos are not re-encoded.
 
-Run `scripts/prepare-viser.py` after rebuilding the media manifest to restore audited scene metadata and camera defaults. It requires NumPy, msgpack, zstandard and the verified Viser 1.0.24 wheel in `../.site-source/viser-1.0.24.whl` (see `public/viser/NOTICE.md`).
+The audited Viser metadata and self-contained viewer are retained in `public/` (see `public/viser/NOTICE.md`).
 
 Validate gallery mappings and playback with `node --test scripts/test-media.mjs scripts/test-synchronized-videos.mjs`.
 
