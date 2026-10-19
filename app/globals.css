@@ -48,7 +48,7 @@ img { display: block; max-width: 100%; }
 .resource { min-width: 112px; padding: 10px 16px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid #dbe1e8; border-radius: 999px; background: #fff; color: #334155; font-weight: 700; box-shadow: 0 7px 22px rgb(15 23 42 / .06); }
 .resource small { color: #9ca3af; font-size: 10px; text-transform: uppercase; }
 .is-disabled { opacity: .72; }
-.hero-logo { width: min(580px, 84vw); margin: 48px auto 10px; }
+.hero-logo { width: min(520px, 84vw); height: auto; margin: 38px auto 24px; }
 .scroll-cue { margin-top: auto; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; color: #64748b; animation: float 1.7s ease-in-out infinite; }
 @keyframes float { 50% { transform: translateY(6px); } }
 
